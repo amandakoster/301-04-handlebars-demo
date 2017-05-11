@@ -7,7 +7,14 @@
 
     <!-- TODO -->
     <!-- Let's put the Handlebars template here, in a <script> tag -->
-
+<script id="neighborhood-template" type="text/x-handlbars-template">
+  <h1>{{name}}</h1>
+  <p>{{city}}</p>
+  <p>{{population}}</p>
+  <p>{{founded}}</p>
+// note triple for the existing <p> tag
+  {{{body}}}
+</script>
   </head>
   <body>
     <header class="site-header clearfix">
